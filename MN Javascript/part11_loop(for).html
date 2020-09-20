@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>part 11 for looping</title>
+</head>
+<body>
+
+	<h1>looping</h1>
+	<button onclick="perulangan()">tombol</button>
+
+	<div id="hasil"></div>
+
+	<script >
+		function perulangan(){
+			var text = "";
+			var x;
+			for (x = 0; x <= 200; x++){
+				text += "angka"+ x + "<br>";
+			}
+			document.getElementById("hasil").innerHTML = text;
+		}
+	</script>
+</body>
+</html>

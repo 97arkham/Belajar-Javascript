@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>part 5 type data</title>
+</head>
+<body>
+	<h1>type data</h1>
+<!-- id hasil -->
+<div id="hasil"></div>
+<div id="hasil2"></div>
+<div id="hasil3"></div>
+<div id="hasil4"></div>
+
+
+<script>
+	var angka = 80;
+	var kalimat = "khairun arkham";
+	var hewan = ["kambing","bebek","ayam"];
+	var manusia = {
+		    nama : "malas ngoding",
+		    alamat  : "Jakarta",
+		    umur       : 30,
+		    pekerjaan  : "facebooker"
+		};
+
+	document.getElementById("hasil").innerHTML = angka;
+	document.getElementById("hasil2").innerHTML = kalimat;
+	document.getElementById("hasil3").innerHTML = hewan[0];
+	document.getElementById("hasil4").innerHTML = manusia.nama + " tinggal di " + manusia.alamat + " .dia sekarang berumur"+ manusia.umur +" dan bekerja sebagai " + manusia.pekerjaan;
+
+</script>
+</body>
+</html>
